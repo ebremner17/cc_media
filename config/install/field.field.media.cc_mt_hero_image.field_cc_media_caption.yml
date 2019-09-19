@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_cc_media_caption
+    - media.type.cc_mt_hero_image
+id: media.cc_mt_hero_image.field_cc_media_caption
+field_name: field_cc_media_caption
+entity_type: media
+bundle: cc_mt_hero_image
+label: Caption
+description: 'Enter the text that will appear as the caption for the image, this can be left blank.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

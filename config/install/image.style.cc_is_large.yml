@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.cc_crop_large
+  module:
+    - crop
+name: cc_is_large
+label: Large
+effects:
+  f8b27c27-6337-44f3-bd9b-619a01851f3e:
+    uuid: f8b27c27-6337-44f3-bd9b-619a01851f3e
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: cc_crop_large

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - entity_browser_block_layout
+third_party_settings:
+  entity_browser_block_layout:
+    entity_browser_block_layout_view_modes:
+      default: default
+      full: 0
+  crop:
+    image_field: _none
+id: cc_media_mt_image
+label: Image
+description: 'Media type for image'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

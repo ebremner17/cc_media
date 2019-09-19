@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.cc_crop_medium
+  module:
+    - crop
+name: cc_is_medium
+label: Medium
+effects:
+  ce1c9bdb-ec85-4122-b576-3ba948170cb2:
+    uuid: ce1c9bdb-ec85-4122-b576-3ba948170cb2
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: cc_crop_medium

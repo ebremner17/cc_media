@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.cc_is_extra_large
+    - image.style.cc_is_large
+    - image.style.cc_is_medium
+    - image.style.cc_is_small
+  theme:
+    - cadets_canada_theme
+id: cc_ris_media_cropped
+label: 'Media cropped'
+image_style_mappings:
+  -
+    breakpoint_id: cadets_canada_theme.xlarge
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: cc_is_extra_large
+  -
+    breakpoint_id: cadets_canada_theme.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: cc_is_large
+  -
+    breakpoint_id: cadets_canada_theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: cc_is_medium
+  -
+    breakpoint_id: cadets_canada_theme.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: cc_is_small
+breakpoint_group: cadets_canada_theme
+fallback_image_style: '_original image_'

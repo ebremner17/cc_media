@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cc_media_view_ebr_hero_image
+  module:
+    - entity_browser_entity_form
+    - views
+name: cc_media_ebr_hero_image
+label: 'Hero image'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  3d7138a3-7572-4c35-93d2-d5e78d55c5c9:
+    settings:
+      entity_type: media
+      bundle: cc_mt_hero_image
+      form_mode: default
+      submit_text: 'Save hero image'
+    uuid: 3d7138a3-7572-4c35-93d2-d5e78d55c5c9
+    weight: 2
+    label: Upload
+    id: entity_form
+  64c8a674-cf68-4eac-a1ad-6a6c83f123e2:
+    settings:
+      view: cc_media_view_ebr_hero_image
+      view_display: hero_image
+      submit_text: 'Select hero image'
+      auto_select: false
+    uuid: 64c8a674-cf68-4eac-a1ad-6a6c83f123e2
+    weight: 2
+    label: View
+    id: view

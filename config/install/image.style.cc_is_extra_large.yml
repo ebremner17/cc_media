@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.cc_crop_extra_large
+  module:
+    - crop
+name: cc_is_extra_large
+label: 'Extra large'
+effects:
+  5ab0a855-8ba7-4b82-a788-37a20b492e3e:
+    uuid: 5ab0a855-8ba7-4b82-a788-37a20b492e3e
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: cc_crop_extra_large

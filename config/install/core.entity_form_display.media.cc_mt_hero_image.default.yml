@@ -1,0 +1,54 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.cc_mt_hero_image.field_cc_media_caption
+    - field.field.media.cc_mt_hero_image.field_media_image
+    - image.style.thumbnail
+    - media.type.cc_mt_hero_image
+  module:
+    - image_widget_crop
+id: media.cc_mt_hero_image.default
+targetEntityType: media
+bundle: cc_mt_hero_image
+mode: default
+content:
+  field_cc_media_caption:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_media_image:
+    weight: 1
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: thumbnail
+      crop_preview_image_style: crop_thumbnail
+      progress_indicator: throbber
+      crop_list:
+        - cc_crop_extra_large
+        - cc_crop_large
+        - cc_crop_medium
+        - cc_crop_small
+      crop_types_required: {  }
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  status: true
+  uid: true

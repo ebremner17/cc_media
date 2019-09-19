@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.cc_crop_small
+  module:
+    - crop
+name: cc_is_small
+label: Small
+effects:
+  492a6d33-29c2-4b06-bb66-2a7c3aa75bf9:
+    uuid: 492a6d33-29c2-4b06-bb66-2a7c3aa75bf9
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: cc_crop_small

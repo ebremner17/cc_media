@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_cc_media_image_caption
+    - media.type.cc_media_mt_image
+id: media.cc_media_mt_image.field_cc_media_image_caption
+field_name: field_cc_media_image_caption
+entity_type: media
+bundle: cc_media_mt_image
+label: Caption
+description: 'Enter to the text that will be the caption for the image, this can be left blank.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

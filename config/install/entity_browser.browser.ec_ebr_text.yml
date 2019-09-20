@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ec_view_ebr_copy_text
+  module:
+    - entity_browser_entity_form
+    - views
+name: ec_ebr_text
+label: Text
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  4bb3d6b2-98a4-41cc-8f34-ccbbec36fbb2:
+    settings:
+      entity_type: et_embeddable_content
+      bundle: ''
+      form_mode: default
+      submit_text: 'Save text'
+    uuid: 4bb3d6b2-98a4-41cc-8f34-ccbbec36fbb2
+    weight: 1
+    label: Create
+    id: entity_form
+  da04c42a-8b39-40ec-8f8c-877cdea1aacb:
+    settings:
+      view: ec_view_ebr_copy_text
+      view_display: copy_text
+      submit_text: 'Select text'
+      auto_select: false
+    uuid: da04c42a-8b39-40ec-8f8c-877cdea1aacb
+    weight: 2
+    label: View
+    id: view

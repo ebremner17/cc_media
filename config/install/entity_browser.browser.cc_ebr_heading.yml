@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cc_view_ebr_heading
+  module:
+    - entity_browser_entity_form
+    - views
+name: cc_ebr_heading
+label: Heading
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  97c7221d-7076-4e04-9ab7-f78e09802bb0:
+    settings:
+      entity_type: et_embeddable_content
+      bundle: cc_eb_heading
+      form_mode: default
+      submit_text: 'Save heading'
+    uuid: 97c7221d-7076-4e04-9ab7-f78e09802bb0
+    weight: 1
+    label: Create
+    id: entity_form
+  3f73488c-b28a-40e5-82db-4bd51476ff8a:
+    settings:
+      view: cc_view_ebr_heading
+      view_display: heading
+      submit_text: 'Select heading'
+      auto_select: false
+    uuid: 3f73488c-b28a-40e5-82db-4bd51476ff8a
+    weight: 2
+    label: View
+    id: view

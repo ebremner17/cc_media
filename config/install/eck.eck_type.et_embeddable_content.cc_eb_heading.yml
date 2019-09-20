@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.et_embeddable_content
+name: Heading
+type: cc_eb_heading
+description: Headings

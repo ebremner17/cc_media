@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.et_embeddable_content.cc_eb_heading
+    - field.storage.et_embeddable_content.field_cc_heading_text
+id: et_embeddable_content.cc_eb_heading.field_cc_heading_text
+field_name: field_cc_heading_text
+entity_type: et_embeddable_content
+bundle: cc_eb_heading
+label: 'Heading text'
+description: 'Enter the text to displayed in the heading.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

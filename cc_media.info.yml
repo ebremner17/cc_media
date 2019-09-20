@@ -1,9 +1,11 @@
-name: Media
+name: 'Cadets Canada Media'
 description: 'Media for Cadets Canada'
 type: module
 core: 8.x
 dependencies:
+  - cc_site_controller
   - crop
+  - eck
   - entity_browser
   - entity_browser_block
   - entity_browser_block_layout
@@ -14,6 +16,7 @@ dependencies:
   - image_widget_crop
   - media
   - responsive_image
+  - text
   - user
   - views
-  - cc_site_controller
+core_incompatible: false

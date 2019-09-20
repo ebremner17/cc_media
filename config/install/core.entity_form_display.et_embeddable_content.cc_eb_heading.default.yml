@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.et_embeddable_content.cc_eb_heading
+    - field.field.et_embeddable_content.cc_eb_heading.field_cc_heading_text
+id: et_embeddable_content.cc_eb_heading.default
+targetEntityType: et_embeddable_content
+bundle: cc_eb_heading
+mode: default
+content:
+  field_cc_heading_text:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

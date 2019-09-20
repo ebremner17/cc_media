@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.et_embeddable_content
+name: Text
+type: eb_copy_text
+description: 'Copy Text'

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: et_embeddable_content
+label: 'Embeddable content'
+created: false
+changed: false
+uid: false
+title: true

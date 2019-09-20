@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.et_embeddable_content.eb_copy_text
+    - field.field.et_embeddable_content.eb_copy_text.field_ec_copy_text
+  module:
+    - text
+id: et_embeddable_content.eb_copy_text.default
+targetEntityType: et_embeddable_content
+bundle: eb_copy_text
+mode: default
+content:
+  field_ec_copy_text:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

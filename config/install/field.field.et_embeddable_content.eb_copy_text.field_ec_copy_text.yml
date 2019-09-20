@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.et_embeddable_content.eb_copy_text
+    - field.storage.et_embeddable_content.field_ec_copy_text
+  module:
+    - text
+id: et_embeddable_content.eb_copy_text.field_ec_copy_text
+field_name: field_ec_copy_text
+entity_type: et_embeddable_content
+bundle: eb_copy_text
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

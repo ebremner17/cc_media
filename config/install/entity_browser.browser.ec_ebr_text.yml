@@ -22,7 +22,7 @@ widgets:
   4bb3d6b2-98a4-41cc-8f34-ccbbec36fbb2:
     settings:
       entity_type: et_embeddable_content
-      bundle: ''
+      bundle: eb_copy_text
       form_mode: default
       submit_text: 'Save text'
     uuid: 4bb3d6b2-98a4-41cc-8f34-ccbbec36fbb2

@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.cc_crop_extra_small
+  module:
+    - crop
+name: cc_is_extra_small
+label: 'Extra small'
+effects:
+  47fc81c7-6995-4145-bed5-922355ee2819:
+    uuid: 47fc81c7-6995-4145-bed5-922355ee2819
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: cc_crop_extra_small

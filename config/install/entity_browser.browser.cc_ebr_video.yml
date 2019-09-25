@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cc_view_ebr_video
+  module:
+    - entity_browser_entity_form
+    - views
+name: cc_ebr_video
+label: Video
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  520cfd43-69f4-4986-a17e-929f0f14af79:
+    settings:
+      entity_type: media
+      bundle: cc_mt_video
+      form_mode: default
+      submit_text: 'Save video'
+    uuid: 520cfd43-69f4-4986-a17e-929f0f14af79
+    weight: 2
+    label: Create
+    id: entity_form
+  e5d66070-782d-4f72-9471-2b6167d1da9f:
+    settings:
+      view: cc_view_ebr_video
+      view_display: image
+      submit_text: 'Select video'
+      auto_select: false
+    uuid: e5d66070-782d-4f72-9471-2b6167d1da9f
+    weight: 2
+    label: View
+    id: view

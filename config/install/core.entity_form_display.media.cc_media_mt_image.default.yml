@@ -31,6 +31,7 @@ content:
       progress_indicator: throbber
       crop_list:
         - cc_crop_extra_large
+        - cc_crop_extra_small
         - cc_crop_large
         - cc_crop_medium
         - cc_crop_small

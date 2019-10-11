@@ -11,5 +11,5 @@ function cc_media_update_8100() {
   );
 
   // Update the config.
-  _cc_site_controller_update_config('cc_site_controller', $imports);
+  _cc_site_controller_update_config('cc_media', $imports);
 }

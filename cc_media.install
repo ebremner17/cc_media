@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Update extra large image crop ratio.
+ */
+function cc_media_update_8100() {
+
+  // Config files that have changed.
+  $imports = array(
+    'crop.type.cc_crop_extra_large',
+  );
+
+  // Update the config.
+  _cc_site_controller_update_config('cc_site_controller', $imports);
+}

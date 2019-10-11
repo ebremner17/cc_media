@@ -4,8 +4,8 @@ dependencies: {  }
 label: 'Extra large'
 id: cc_crop_extra_large
 description: 'Crop for extra large'
-aspect_ratio: '1920:400'
-soft_limit_width: 1920
+aspect_ratio: '1540:400'
+soft_limit_width: 1540
 soft_limit_height: 400
 hard_limit_width: null
 hard_limit_height: null

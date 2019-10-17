@@ -26,7 +26,7 @@ widgets:
       form_mode: default
       submit_text: 'Save video'
     uuid: 520cfd43-69f4-4986-a17e-929f0f14af79
-    weight: 2
+    weight: -10
     label: Create
     id: entity_form
   e5d66070-782d-4f72-9471-2b6167d1da9f:
@@ -36,6 +36,6 @@ widgets:
       submit_text: 'Select video'
       auto_select: false
     uuid: e5d66070-782d-4f72-9471-2b6167d1da9f
-    weight: 2
+    weight: -9
     label: View
     id: view

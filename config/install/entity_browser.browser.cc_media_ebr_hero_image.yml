@@ -26,7 +26,7 @@ widgets:
       form_mode: default
       submit_text: 'Save hero image'
     uuid: 3d7138a3-7572-4c35-93d2-d5e78d55c5c9
-    weight: 2
+    weight: -10
     label: Upload
     id: entity_form
   64c8a674-cf68-4eac-a1ad-6a6c83f123e2:
@@ -36,6 +36,6 @@ widgets:
       submit_text: 'Select hero image'
       auto_select: false
     uuid: 64c8a674-cf68-4eac-a1ad-6a6c83f123e2
-    weight: 2
+    weight: -9
     label: View
     id: view

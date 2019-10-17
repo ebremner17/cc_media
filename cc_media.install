@@ -13,3 +13,20 @@ function cc_media_update_8100() {
   // Update the config.
   _cc_site_controller_update_config('cc_media', $imports);
 }
+
+/**
+ * Update entity browsers.
+ */
+function cc_media_update_8101() {
+
+  // Config files that have changed.
+  $imports = array(
+    'entity_browser.browser.cc_ebr_video',
+    'entity_browser.browser.cc_media_ebr_hero_image',
+    'views.view.cc_media_view_ebr_hero_image',
+    'views.view.cc_view_ebr_image',
+  );
+
+  // Update the config.
+  _cc_site_controller_update_config('cc_media', $imports);
+}
